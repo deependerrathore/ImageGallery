@@ -2,13 +2,15 @@
 
 class Cars{
 	function gretting(){
-		echo 'Deepak';
+		echo 'Hello Student';
 	}
+
 }
 
-$my_methods = get_class_methods('Cars');
+$bmw = new Cars();
 
-foreach ($my_methods as $fun) {
-	echo $fun;
-}
+$audi = new Cars();
+
+$audi->gretting();
+$bmw->gretting();
 ?>
