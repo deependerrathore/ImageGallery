@@ -1,7 +1,11 @@
 <?php 
 
 class Cars{
-	function gretting(){
+
+	var $wheel_count;
+	var $door_count = 4;
+
+	function car_details(){
 		echo 'Hello Student';
 	}
 
@@ -9,8 +13,10 @@ class Cars{
 
 $bmw = new Cars();
 
+echo $bmw->wheel_count = 10;
+
 $audi = new Cars();
 
-$audi->gretting();
-$bmw->gretting();
+echo $audi->wheel_count;//don't show anything since variable is not defined
+
 ?>
