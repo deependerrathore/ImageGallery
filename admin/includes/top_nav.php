@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="../index.php">Visit Home Page</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -15,7 +15,7 @@
    
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <i class="fa fa-sort-desc"></i></a>
         <ul class="dropdown-menu message-dropdown">
           <li class="message-preview">
             <a href="#">
@@ -55,7 +55,7 @@
         </ul>
       </li>
       <li class="dropdown">
-        <a href="#" class="dropdown-toogle" data-toggle="dropdown"><i class="fa fa-bell"></i></a>
+        <a href="#" class="dropdown-toogle" data-toggle="dropdown"><i class="fa fa-bell"></i> <i class="fa fa-sort-desc"></i></a>
         <ul class="dropdown-menu alert-dropdown">
           <li>
             <a href="#">Alert Name <span class="label label-default">Alert Badge</span></a>
@@ -82,7 +82,7 @@
         </ul>
       </li>
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith  <i class="fa fa-sort-desc"></i></a>
         <ul class="dropdown-menu">
           <li>
             <a href="#"><i class="fa fa-fw fa-user"></i>Profile</a>

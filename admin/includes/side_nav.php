@@ -11,24 +11,25 @@
                 <i class="fa fa-times"></i>
             </span>
         </span>
-        <a href="#" class="list-group-item">
-            <i class="fa fa-comment-o"></i> Lorem ipsum
+        <a href="index.php" class="list-group-item">
+            <i class="fa fa-fw fa-dashboard"></i> Dashboard
         </a>
-        <a href="#" class="list-group-item">
-            <i class="fa fa-search"></i> Lorem ipsum
+        <a href="users.php" class="list-group-item">
+            <i class="fa fa-fw fa-users"></i> Users
         </a>
-        <a href="#" class="list-group-item">
-            <i class="fa fa-user"></i> Lorem ipsum
+        <a href="upload.php" class="list-group-item">
+            <i class="fa fa-fw fa-upload"></i> Upload
         </a>
-        <a href="#" class="list-group-item">
-            <i class="fa fa-folder-open-o"></i> Lorem ipsum <span class="badge">14</span>
+        <a href="photos.php" class="list-group-item">
+            <i class="fa fa-fw fa-file-image-o"></i> Photos
+        </a>
+        <a href="comments.php" class="list-group-item">
+            <i class="fa fa-fw fa-comments-o"></i> Comments <span class="badge">14</span>
         </a>
         <a href="#" class="list-group-item">
             <i class="fa fa-bar-chart-o"></i> Lorem ipsumr <span class="badge">14</span>
         </a>
-        <a href="#" class="list-group-item">
-            <i class="fa fa-envelope"></i> Lorem ipsum
-        </a>
+        
     </div>        
 
 </div>
