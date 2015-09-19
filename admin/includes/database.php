@@ -27,7 +27,7 @@ class Database{
 
 	private function confirm_query($result){
 		if(!$result){
-			die("Query Failed!").
+			die("Query Failed!");
 		}
 	}
 	public function escape($string){
@@ -38,5 +38,6 @@ class Database{
 	
 }
 
+$database = new Database();
 
 
